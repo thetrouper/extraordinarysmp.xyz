@@ -1,143 +1,149 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Extraordinary SMP</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="style/main.css">
-</head>
-<body class="leading-normal tracking-wide">
+	<title>Extraordinary SMP - Home</title> <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+	<link href="https://it.allfont.net/allfont.css?fonts=comic-sans-ms" rel="stylesheet" type="text/css"> <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<script src="https://kit.fontawesome.com/a1f6a7827b.js" crossorigin="anonymous"></script>
+	<link rel="icon" href="img/logo.png"> </head>
+<body class="landing is-preload" oncontextmenu="return false" onselect="return false" ondragstart="return false">
 
-<header class="bg-gray-900 text-white shadow-lg">
-    <div class="container mx-auto flex justify-between items-center py-4 px-6">
-        <div class="flex items-center">
-            <img src="img/logo.png" alt="Extraordinary SMP Logo" class="logo">
-            <div class="text-2xl font-bold text-white">Extraordinary SMP</div> </div>
-        <nav class="hidden md:flex items-center space-x-6"> <a href="#about" class="hover:text-gray-300 transition duration-300">About</a> <a href="#features" class="hover:text-gray-300 transition duration-300">Features</a> <a href="#server-info" class="hover:text-gray-300 transition duration-300">Server Info</a> <a href="https://discord.gg/te4XVU3K5a" target="_blank" class="btn-primary">Join Discord</a>
-        </nav>
-        <div class="md:hidden">
-            Menu
-        </div>
-    </div>
-</header>
+<a id="buttontop"></a>
 
-<section class="relative bg-cover bg-center text-white py-20 px-6" style="background-image: url('img/SMP_Final_Image.png');">
-    <div class="absolute inset-0 bg-black opacity-50"></div> <div class="container mx-auto text-center relative z-10">
-    <h1 class="text-5xl md:text-7xl font-bold mb-6 text-white">Welcome to Extraordinary SMP</h1> <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">Tired of feeling Ordinary? Join us in Extraordinary!</p>
-    <a href="https://discord.gg/te4XVU3K5a" target="_blank" class="btn-primary text-xl">Join Our Discord</a>
+<div id="page-wrapper">
+
+	<header id="header" class="alt">
+		<div style='margin:15px; padding:10px;'>
+			<a href="index.html"><img src="img/logo.png" alt="Extraordinary SMP Logo" id="logo" width="50" height="50"></a> </div>
+		<nav id="nav">
+
+			<ul>
+				<li class="special">
+					<a href="#menu" class="menuToggle"><span>Menu</span></a>
+					<div id="menu">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="rules.html">Rules</a></li>
+							<li><a href="staff.html">Staff</a></li>
+							<li><a href="https://discord.gg/te4XVU3K5a" target="_blank">Join Discord</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="banner">
+		<div class="inner">
+			<h2>Extraordinary SMP</h2> <p>Tired of feeling Ordinary? Join us in Extraordinary!</p> <ul class="actions">
+			<li><a onclick="copy()" class="button special primary">mc.exo-craft.org</a></li>
+		</ul>
+			<ul class="actions special">
+				<li><a href="staff.html" class="button" target="_self">Staff</a></li>
+				<li><a href="rules.html" class="button" target="_self">Rules</a></li>
+				<li><a href="https://discord.gg/te4XVU3K5a" class="button" target="_blank">Join Discord</a></li>
+			</ul>
+		</div>
+		<br>
+		<a href="#one" class="more scrolly">Scroll</a> </section>
+
+	<section id="one" class="wrapper style1 special">
+		<div class="inner">
+			<header class="major">
+				<h2>About Extraordinary SMP</h2> <p>Freshly open and welcoming mature, 16+ members! Extraordinary SMP is a place for creative minds to come together, build unique designs, and enjoy a peaceful community where everyone is a neighbor and a friend.<br />
+				We are a semi-vanilla Minecraft server running on Fabric 1.21.5, enhanced with performance mods for smoother gameplay. No complex plugins, just polished Minecraft!</p>
+			</header>
+		</div>
+	</section>
+
+	<section id="two" class="wrapper alt style2">
+		<section class="spotlight">
+			<div class="image"><img src="img/houseinterior.png" alt="Community Build Example" /></div> <div class="content">
+			<h2>A Welcoming Community</h2>
+			<p>We pride ourselves on being an anti-grief, LGBT+, open, welcoming, and friendly community for mature (16+) players. Join us for a peaceful experience focused on creativity, collaboration, building, exploration, and adventure.</p>
+		</div>
+		</section>
+		<section class="spotlight">
+			<div class="image"><img src="img/chaotic.png" alt="Gameplay Example" /></div> <div class="content">
+			<h2>Enhanced Gameplay Features</h2>
+			<p>Enjoy quality-of-life features like 1 Player Sleep. We also utilize unique tools like Bot Spawning (via Carpet Mod) for optimizing farms without needing alt accounts. Explore the possibilities on our Fabric 1.21.5 server!</p>
+		</div>
+		</section>
+		<section class="spotlight">
+			<div class="image"><img src="img/bridge2.png" alt="Server Environment Example" /></div> <div class="content">
+			<h2>Transparency & Performance</h2>
+			<p>We believe in transparency with a public (read-only) server console and a single shared operator account for accountability. The world is pregenerated to 10k blocks, and the server runs on robust hardware (Ryzen 9950x, 8GB DDR5 RAM, NVME Storage) with DDoS protection for maximum uptime.</p>
+		</div>
+		</section>
+		<section class="spotlight">
+			<div class="image"><img src="img/house.png" alt="Creative Build Example" /></div> <div class="content">
+			<h2>Events & Our Story</h2>
+			<p>Look forward to adventure-packed events during holidays and throughout the year! We formed after leaving a toxic, pay-to-win server environment. Our goal is to foster a community built on the love for Minecraft's core elements. Learn more about our journey on Discord!</p>
+		</div>
+		</section>
+	</section>
+
+	<section id="three" class="wrapper style3 special">
+		<div class="inner">
+			<header class="major">
+				<h2>Contacts</h2>
+				<p>YOU CAN ALWAYS FIND US ON</p> </header>
+			<ul class="features">
+				<li class="fab fa-discord">
+					<h3 style="font-family: 'Comic Sans MS', arial;">DISCORD</h3>
+					<P style="font-family: 'Comic Sans MS', arial;">JOIN OUR DISCORD COMMUNITY</P>
+					<button type="button" onClick="window.open('https://discord.gg/te4XVU3K5a', '_blank')">JOIN</button>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section id="cta" class="wrapper style4">
+		<div class="inner">
+			<header>
+				<h2>Contact the Staff</h2> <p>The best way to reach staff or get support is through our Discord server.</p> </header>
+			<ul class="actions stacked">
+				<li><a href="https://discord.gg/te4XVU3K5a" target="_blank" class="button fit primary">CONTACT VIA DISCORD</a></li>
+			</ul>
+		</div>
+	</section>
+
+	<footer id="footer">
+		<ul class="icons">
+			<li><a href="https://discord.gg/te4XVU3K5a" target="_blank" class="icon brands fa-discord"><span class="label">Discord</span></a></li>
+		</ul>
+		<ul class="copyright">
+			<li>&copy; Extraordinary SMP 2025 Extraordinary SMP is not affiliated with nor endorsed by Mojang Synergies AB.</li>
+		</ul>
+	</footer>
+
 </div>
-</section>
 
-<section id="about" class="section-bg py-16 px-6">
-    <div class="container mx-auto">
-        <h2 class="text-4xl font-bold text-center mb-10 text-white">About Extraordinary SMP</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
-                <p class="text-lg mb-4">Freshly open and welcoming mature, 16+ members! Extraordinary SMP is a place for creative minds to come together, build unique designs, and enjoy a peaceful community where everyone is a neighbor and a friend.</p>
-                <p class="text-lg mb-4">We are a semi-vanilla Minecraft serverus running on Fabric 1.21.5, enhanced with performance mods for smoother gameplay. No complex plugins, just polished Minecraft!</p>
-                <p class="text-lg">We pride ourselves on being an anti-grief, LGBT+, open, welcoming, and friendly community.</p>
-            </div>
-            <div class="gallery-container">
-                <div class="gallery-wrapper">
-                    <div class="gallery-item"><img src="img/houseinterior.png" alt="Community Building 1"></div>
-                    <div class="gallery-item"><img src="img/chaotic.png" alt="Community Building 2"></div>
-                    <div class="gallery-item"><img src="img/bridge2.png" alt="Community Building 4"></div>
-                    <div class="gallery-item"><img src="img/house.png" alt="Community Building 4"></div>
-                </div>
-                <button class="gallery-button left" onclick="moveGallery(-1)"><i class="fas fa-chevron-left"></i></button>
-                <button class="gallery-button right" onclick="moveGallery(1)"><i class="fas fa-chevron-right"></i></button>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="features" class="section-bg-dark py-16 px-6">
-    <div class="container mx-auto">
-        <h2 class="text-4xl font-bold text-center mb-10 text-white">Key Features & Mods</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div class="bg-gray-800 p-8 rounded-lg shadow-lg">
-                <h3 class="text-2xl font-semibold mb-4 text-white">1 Player Sleep</h3>
-                <p class="text-lg">No more waiting for everyone to sleep! Just one player sleeping is enough to pass the night.</p>
-            </div>
-            <div class="bg-gray-800 p-8 rounded-lg shadow-lg">
-                <h3 class="text-2xl font-semibold mb-4 text-white">Bot Spawning Mod (Carpet Mod Feature)</h3>
-                <p class="text-lg mb-4">This unique feature allows you to spawn bots using the command <code class="bg-gray-700 p-1 rounded text-sm">/player [username] spawn at ~ ~ ~</code>. This is incredibly useful for multi-dimensional farms, eliminating the need for alt accounts.</p>
-                <p class="text-lg">You can control these bots to move, attack, or drop items they might pick up. Feel free to experiment and see how they can optimize your builds!</p>
-            </div>
-            <div class="bg-gray-800 p-8 rounded-lg shadow-lg md:col-span-2">
-                <h3 class="text-2xl font-semibold mb-4 text-white">Events & Future Plans</h3>
-                <p class="text-lg">Get ready for adventure-packed events during holidays and throughout the year! We're planning creative challenges, surprises, and more to keep you engaged and entertained while enjoying the peacefulness of the SMP.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="server-info" class="section-bg py-16 px-6">
-    <div class="container mx-auto">
-        <h2 class="text-4xl font-bold text-center mb-10 text-white">Server Information</h2> <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-        <div class="p-8 rounded-lg shadow-lg bg-gray-800"> <h3 class="text-2xl font-semibold mb-4 text-white">Quick Info</h3> <p class="text-lg mb-2"><span class="font-semibold">Server IP:</span> <code class="bg-gray-700 p-1 rounded text-sm">play.extraordinarysmp.xyz</code></p>
-            <p class="text-lg mb-2"><span class="font-semibold">Discord:</span> <a href="https://discord.gg/te4XVU3K5a" target="_blank" class="text-blue-400 hover:underline">https://discord.gg/te4XVU3K5a</a></p>
-            <p class="text-lg mb-2"><span class="font-semibold">World Seed:</span> <code class="bg-gray-700 p-1 rounded text-sm">-7649949940957896961</code></p>
-        </div>
-        <div class="p-8 rounded-lg shadow-lg bg-gray-800"> <h3 class="text-2xl font-semibold mb-4 text-white">Server Specifications</h3> <p class="text-lg mb-2"><span class="font-semibold">CPU:</span> Ryzen 9950x (2 vCores)</p>
-            <p class="text-lg mb-2"><span class="font-semibold">RAM:</span> 8 GB DDR5</p>
-            <p class="text-lg mb-2"><span class="font-semibold">Storage:</span> 256 GB NVME</p>
-            <p class="text-lg mb-2"><span class="font-semibold">Protection:</span> DDoS Protected for Maximum Uptime</p>
-        </div>
-        <div class="md:col-span-2 p-8 rounded-lg shadow-lg bg-gray-800"> <h3 class="text-2xl font-semibold mb-4 text-white">Transparency</h3> <p class="text-lg mb-2">We believe in transparency. The server console is public (read-only), allowing anyone to audit administrative actions. We have nothing to hide, unlike others.</p>
-            <p class="text-lg">There is only one operator account, shared by all admins, ensuring accountability.</p>
-        </div>
-        <div class="md:col-span-2 p-8 rounded-lg shadow-lg bg-gray-800"> <h3 class="text-2xl font-semibold mb-4 text-white">World Pregeneration</h3> <p class="text-lg">The world has been pregenerated out to 10k blocks from spawn. This significantly reduces lag when traveling relatively short distances, providing a smoother exploration experience.</p>
-        </div>
-    </div>
-    </div>
-</section>
-
-<section id="history" class="py-16 px-6">
-    <div class="container mx-auto text-center">
-        <h2 class="text-4xl font-bold text-center mb-10 text-white">Our Story</h2> <p class="text-lg max-w-2xl mx-auto">We came together after leaving a toxic server environment where owner power was abused and the server became pay-to-win. After being banned, we decided to create our own community – a place built on love for building, creativity, exploration, and adventure. You can read more about our journey in the server archive on Discord.</p>
-    </div>
-</section>
-
-
-<section class="section-bg py-16 px-6 text-center">
-    <div class="container mx-auto">
-        <h2 class="text-4xl font-bold mb-6 text-white">Ready to be Extraordinary?</h2> <p class="text-xl mb-8">Join our community today!</p>
-        <a href="https://discord.gg/te4XVU3K5a" target="_blank" class="btn-primary text-xl">Join Our Discord Now!</a>
-    </div>
-</section>
-
-<footer class="bg-gray-900 text-gray-400 py-8 px-6 text-center">
-    <div class="container mx-auto">
-        <p>&copy; 2025 Extraordinary SMP. All rights reserved.</p>
-        <p class="mt-2">Minecraft is a trademark of Mojang Synergies AB. Extraordinary SMP is not affiliated with nor endorsed by Mojang Synergies AB.</p>
-    </div>
-</footer>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/buttontop.js"></script>
+<script src="assets/js/clipboard.js"></script>
 <script>
-    const galleryWrapper = document.querySelector('.gallery-wrapper');
-    const galleryItems = document.querySelectorAll('.gallery-item');
-    const totalItems = galleryItems.length;
-    let currentIndex = 0;
-
-    function moveGallery(direction) {
-        currentIndex += direction;
-
-        if (currentIndex >= totalItems) {
-            currentIndex = 0;
-        } else if (currentIndex < 0) {
-            currentIndex = totalItems - 1;
-        }
-
-        const offset = -currentIndex * 100;
-        galleryWrapper.style.transform = `translateX(${offset}%)`;
+	// Basic copy function for the IP button
+    function copy() {
+      const ip = 'mc.exo-craft.org'; // The IP address
+      navigator.clipboard.writeText(ip).then(() => {
+        // Optional: Show a confirmation message
+        alert('Server IP Copied: ' + ip);
+      }).catch(err => {
+        console.error('Failed to copy IP: ', err);
+        // Optional: Fallback or error message
+        alert('Failed to copy IP. Please copy it manually: ' + ip);
+      });
     }
-
-    setInterval(() => {
-        moveGallery(1);
-    }, 5000);
 </script>
 </body>
 </html>
